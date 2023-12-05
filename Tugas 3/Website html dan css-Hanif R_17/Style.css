@@ -1,0 +1,147 @@
+@charset "utf-8";
+body{
+    background-color:#ffffff;
+    margin:0px;
+    padding:0px;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.transparent-bg {
+    content: '.content';
+    background-image: url();
+    background-size: 1366x768; /* Sesuaikan dengan ukuran latar belakang Anda */
+    opacity: 0.9; /* 0.5 adalah nilai opasitas (0-1) */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Mengatur lapisan di bawah konten lain */
+  }
+
+  .jarak {
+    text-align: center;
+    padding: 0 20px; /* Menggunakan px untuk padding */
+}
+ 
+ul{
+    list-style:none;
+}
+ 
+a{
+    text-decoration:none;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+ 
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    height:60px;
+    background-color:#FFFFFF;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+}
+
+nav ul{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}  
+
+nav ul li a{
+    margin:30px;
+    text-align: center;
+    justify-content: center;
+    font-family:myriad pro regular;
+    color:#505050;
+    font-size: 15px;
+    font-weight:700;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+ 
+.logo{
+    font-family:RoadTest;
+    color:#000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
+.active{
+    color:#2d2a2a;
+    font-weight:bold;
+}
+ 
+.text-container p:nth-child(1){
+    font-family: RoadTest;
+    font-weight:bold;
+    color:#eeeeee;
+    font-size:30px;
+    line-height:0px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.text-container p{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+ 
+.text-container{
+    position: absolute;
+    left: 39%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p{
+    font-family: calibri;
+}
+ 
+.footer p:nth-child(1){
+    font-weight:bold;
+    color:#FFFFFF;
+    line-height:10px;
+}
+ 
+.footer{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: red;
+}
+
+@media (max-width: 768px) {
+    .text-container {
+        left: 0;
+        top: 0;
+        transform: none;}
+}
