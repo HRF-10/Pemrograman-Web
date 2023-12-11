@@ -1,0 +1,129 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .jarak {
+            padding: 0 20px; /* Menggunakan px untuk padding */
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .left-side {
+            flex: 1;
+            background-image: url('image/kcjb\ jembatan.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .right-side {
+            flex: 1;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .left-side {
+            flex: 1;
+            background-image: url('image/kcjb\ jembatan.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .right-side {
+            flex: 1;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .right-side p {
+            text-align: center;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h3 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .divider {
+            border-top: 2px solid red;
+            margin: 20px 0;
+        }
+        article {
+            text-align: center;
+        }
+        select, input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        select {
+            background-color: #f9f9f9;
+        }
+        label {
+            font-weight: bold;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .footer {
+            height: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-color: red;
+        }
+        
+        .footer p {
+            font-family: 'calibri';
+        }
+        
+        .footer p:nth-child(1) {
+            font-weight: bold;
+            color: #FFFFFF;
+            line-height: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .text-container {
+                left: 0;
+                top: 0;
+                transform: none;}
+        }
+        
+        @media (max-width: 768px) {
+            img {
+                max-width: 80%;
+            }
+        }

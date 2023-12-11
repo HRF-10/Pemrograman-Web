@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi Uji Coba Kereta Cepat Jakarta-Bandung</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="left-side"></div>
+        <div class="right-side">
+            <div class="logo">
+                <img src="image/KCIC_logo.png" alt="KCIC Logo" width="200" height="100"> <!-- Ganti 'logo_kcic.png' dengan URL logo KCIC yang sesuai -->
+            </div>
+            <h3>Registrasi Uji Coba Publik</h3>
+            <h1><strong>Kereta Cepat Jakarta-Bandung</strong></h1>
+            <div class="divider"></div>
+            <article>Registrasi hanya dapat dilakukan di website ini<br>Setiap NIK hanya mendapatkan maksimal 2 undangan
+            </article><br>
+            
+            <form>
+                <label for="stasiun">Rute perjalanan</label>
+                <select id="stasiun" name="stasiun">
+                    <option value="halim-padalarang">Halim - Padalarang (PP)</option>
+                    <option value="padalarang-halim">Padalarang - Halim (PP)</option>
+                </select>
+                <label for="tanggal">Tanggal</label>
+                <input type="date" id="tanggal" name="tanggal" min="2023-01-01" max="2023-12-31">
+                <label for="jumlah-penumpang">Jumlah Penumpang</label>
+                <input type="number" id="jumlah-penumpang" name="jumlah-penumpang" min="1" max="2" value="1">
+                <button style="background-color: red; color: white;" type="submit">CARI JADWAL</button>
+            </form>
+            <p>Menerima undangan?</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="jarak">
+            <p>&copy; 2023 Hanif Raditya Firmansyah. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
