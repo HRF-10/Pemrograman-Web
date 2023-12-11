@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Variabeel dalam Javascrpt</title>
+    <script>
+        // membuat variabel 
+        var nama = "petanikode"
+        var visitorCount = 50322
+        var isActive = true
+        var url = "https://www.petanikode.com"
+
+        // menampilkan variabel ke jendela dialog (alert)
+        alert("Selamat datang di "+nama)
+
+        //menampilkan variabel ke dalam HTML 
+        document.write("Nama Situs "+nama+ "<br>")
+        document.write("Jumlah Pengunjung "+visitorCount+ "<br>")
+        document.write("Status Aktif "+isActive+ "<br>")
+        document.write("Alamat Url "+url+ "<br>")
+    </script>
+</head>
+<body>
+    <button onClick = >klik disini</button>
+    <script>
+        var yakin = confirm("Apakah anda ingin mengunjungi petanikode?")
+
+        if (yakin) {
+            window.location = "https://www.petanikode.com"
+        }else {
+            document.write("oke siap kang :)")
+        }
+    </script>
+    <script>
+        var satu = 20
+        var dua = 20
+
+        var hasil = satu > dua
+        document.write(`${satu} == ${dua} = ${hasil}`)
+    </script>
+</body>
+</html>
